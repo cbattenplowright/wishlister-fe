@@ -1,4 +1,5 @@
 import React from 'react';
+import AccountButton from './AccountButton';
 
 const Navbar = () => {
 
@@ -17,9 +18,8 @@ const Navbar = () => {
 
     return (
         <div style={styles.navbar}>
-            <Sidebar />
             <h1 style={styles.h1}>Wishlister</h1>
-            <Account />
+            <AccountButton />
         </div>
     )
 }
